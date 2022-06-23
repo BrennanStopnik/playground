@@ -4,8 +4,8 @@ Implement the function unique_in_order which takes as argument a sequence and re
 
 var uniqueInOrder=function(iterable){
     let finalArr = [];
-    for (i in iterable){
-        if (iterable[i] !== iterable[i] + 1){
+    for (let i = 0; i < iterable.length; i++){
+        if (iterable[i] !== (iterable[i + 1])){ 
             finalArr.push(iterable[i])
         }
     }
