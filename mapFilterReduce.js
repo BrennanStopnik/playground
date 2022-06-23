@@ -136,11 +136,3 @@ let stringReduce = strings3.reduce(function(newStr, str){
 
 console.log("Concatenate each string: ");
 console.log(stringReduce);
-
-
-
-
-
-
-
-
