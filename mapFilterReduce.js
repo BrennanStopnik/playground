@@ -30,6 +30,7 @@ let resultArray = arrayToFilter.filter(function(x){
 x represents each item in our arrayToFilter
 
 */
+numbers1 = [20, 22, 23, 26, 35];
 
 let outputFilter = numbers1.filter(function(num){
     return num % 2 === 0; 
